@@ -1,0 +1,56 @@
+{
+    "name": "openresources/users-roles-table-additions",
+    "description": "Useful additions to the users and roles table, avatar, login count, slug etc.",
+    "keywords": [
+        "openresources",
+        "users-roles-table-additions"
+    ],
+    "homepage": "https://github.com/openresources/users-roles-table-additions",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Eviano Afiemo",
+            "email": "evianoa@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "doctrine/dbal": "^2.10",
+        "illuminate/support": "^7.0"
+    },
+    "require-dev": {
+        "orchestra/canvas": "^5.0",
+        "orchestra/testbench": "^5.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Openresources\\UsersRolesTableAdditions\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Openresources\\UsersRolesTableAdditions\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Openresources\\UsersRolesTableAdditions\\UsersRolesTableAdditionsServiceProvider"
+            ],
+            "aliases": {
+                "UsersRolesTableAdditions": "Openresources\\UsersRolesTableAdditions\\UsersRolesTableAdditionsFacade"
+            }
+        }
+    }
+}

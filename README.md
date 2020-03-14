@@ -1,29 +1,53 @@
-# README #
+# Very short description of the package
 
-This README would normally document whatever steps are necessary to get your application up and running.
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/openresources/users-roles-table-additions.svg?style=flat-square)](https://packagist.org/packages/openresources/users-roles-table-additions)
+[![Build Status](https://img.shields.io/travis/openresources/users-roles-table-additions/master.svg?style=flat-square)](https://travis-ci.org/openresources/users-roles-table-additions)
+[![Quality Score](https://img.shields.io/scrutinizer/g/openresources/users-roles-table-additions.svg?style=flat-square)](https://scrutinizer-ci.com/g/openresources/users-roles-table-additions)
+[![Total Downloads](https://img.shields.io/packagist/dt/openresources/users-roles-table-additions.svg?style=flat-square)](https://packagist.org/packages/openresources/users-roles-table-additions)
 
-### What is this repository for? ###
+This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## Installation
 
-### How do I get set up? ###
+You can install the package via composer:
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+```bash
+composer require openresources/users-roles-table-additions
+```
 
-### Contribution guidelines ###
+## Usage
 
-* Writing tests
-* Code review
-* Other guidelines
+``` php
+// Usage description here
+```
 
-### Who do I talk to? ###
+### Testing
 
-* Repo owner or admin
-* Other community or team contact
+``` bash
+composer test
+```
+
+### Changelog
+
+Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+
+## Contributing
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+
+### Security
+
+If you discover any security related issues, please email evianoa@gmail.com instead of using the issue tracker.
+
+## Credits
+
+- [Eviano Afiemo](https://github.com/openresources)
+- [All Contributors](../../contributors)
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+## Laravel Package Boilerplate
+
+This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
