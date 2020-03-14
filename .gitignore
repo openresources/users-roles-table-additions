@@ -5,3 +5,4 @@ vendor
 coverage
 .vscode
 .tmp
+.phpunit.result.cache
