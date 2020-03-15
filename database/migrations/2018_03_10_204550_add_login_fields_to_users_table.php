@@ -30,7 +30,7 @@ class AddLoginFieldsToUsersTable extends Migration
     public function down()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->dropColumn('additional_role_id');
+            $table->dropColumn('role_id');
         });
         Schema::table('users', function (Blueprint $table) {
             $table->dropColumn('status_id');
